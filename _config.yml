@@ -1,0 +1,47 @@
+title: Ralph Kaminski
+name: Oficjalna witryna
+baseurl: "" # the subpath of your site, e.g. /blog
+# url: "http://localhost:4000" # development
+# url: "http://ralphkaminski.com" # production
+url: "https://dwoznicka.github.io/ralphkaminski" # staging
+
+copyright: 2020 © <a href="https://ralphkaminski.com" class="site-link">Ralph Kaminski</a>. Wszelkie prawa zastrzeżone.
+copyright_short: 2020 © <a href="https://ralphkaminski.com" class="site-link">Ralph Kaminski</a>.
+made_by: 'Made with ❤ by <a href="https://www.facebook.com/DariaWoznickaManagement/" target="_blank">DW</a>'
+# Build settings
+markdown: kramdown
+incremental: true
+gems:
+  - jekyll-watch
+  - jekyll-assets
+exclude:
+- CNAME
+- .gitignore
+- bin
+- config.rb
+- Gemfile
+- Gemfile.lock
+- gems
+- Procfile
+- Rakefile
+- README.md
+- script
+- vendor
+- .ruby-version
+- Guardfile
+- .jekyll-assets-cache
+- .sass-cache
+- .editorconfig
+- .idea
+- .ruby-version
+- .asset-cache
+- _docs
+
+#
+# Plugin: jekyll-assets
+#
+assets:
+  cache: false
+  features:
+    automatic_img_size: false
+    automatic_img_alt: false

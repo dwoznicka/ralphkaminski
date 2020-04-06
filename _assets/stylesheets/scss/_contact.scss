@@ -1,0 +1,28 @@
+.contact-section {
+  
+  margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  font-size: 18px;
+  line-height: 30px;
+
+  @media(max-width: $screen-xs-max) {
+    font-size: 12px;
+  }
+
+  .contact-name {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  a {
+    transition: 0.2s all ease-in;
+
+    &:hover {
+      cursor: pointer;
+      color: $brand-red;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}

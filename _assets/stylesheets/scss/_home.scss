@@ -1,0 +1,226 @@
+.home {
+
+  &-imageContainer {
+    max-width: 100%;
+    text-align: center;
+
+    img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 50%;
+      position: relative;
+      box-shadow: 0px 4px 15px #777;
+
+      @media(max-width: $screen-xs-max) {
+        width: 70%;
+        max-width: 70%;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &-quote {
+    margin-top: 50px;
+  }
+
+  &-text {
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px #111;
+    text-align: right;
+
+    @media(max-width: $screen-xs-max) {
+      text-align: center;
+    }
+  }
+
+  &-section {
+    margin: 50px 0;
+    margin-bottom: 100px;
+    align-items: center;
+    padding: 20px 30px;
+  }
+
+  &-section-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  &-section-guestName {
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin: 20px 0;
+    margin-top: 50px;
+    text-align: center;
+
+    &--soon {
+      text-transform: lowercase;
+    }
+  }
+
+  &-galleryContainer {
+    position: relative;
+    z-index: 999;
+  }
+
+  &-gallery-titleContainer {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    padding: 20px;
+    text-shadow: 1px 1px 15px $brand-black;
+    letter-spacing: 1.5px;
+
+    @media(max-width: $screen-xs-max) {
+      display: block;
+    }
+
+    h1 {
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+    h2 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+
+    span,
+    .button {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+
+  &-gallery {
+    max-width: 100vw;
+    height: 70vh;
+    height: calc(100vh - 200px);
+    position: relative;
+    
+    .slick-list {
+      height: 100%;
+    }
+    
+    .slick-track {
+      height: 100%;
+    }
+    
+    &-imageContainer {
+      max-width: 100vw;
+      height: 100%;
+      position: relative;
+      
+      img {
+        height: 100%;
+        width: 100%;
+        min-width: 100vw;
+        object-fit: cover;
+        position: relative;
+      }
+    }
+
+    &-button {
+      border: 1px $brand-white solid;
+      padding: 10px 20px;
+      text-align: center;
+      border-radius: 20px;
+    }
+  }
+}
+
+.home-gallery-title--left {
+  max-width: 50%;
+  text-align: right;
+
+  @media(max-width: $screen-xs-max) {
+    display: none;
+  }
+}
+
+.home-gallery-title--right {
+  display: block;
+  max-width: 50%;
+  text-align: center;
+
+  @media(max-width: $screen-xs-max) {
+    max-width: 100%;
+  }
+
+  span {
+    display: block;
+    width: 100%;
+  }
+
+  a {
+    display: block;
+    transition: 0.2s all ease-in;
+
+    &:hover {
+      text-decoration: none;
+      color: $brand-white;
+      transform: scale(1.05);
+    }
+  }
+}
+
+.text-center {
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 1px #111;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.guest-row {
+  align-items: center;
+  margin: 0;
+  padding: 0 10px;
+}
+
+
+footer {
+  font-size: 10px;
+}
+
+.footer-mediaList {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  font-size: 30px;
+
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+  @media(max-width: $screen-xs-max) {
+    width: 90%;
+  }
+}
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,14 @@
+- name: the-kroach.JPG
+  title: The Kroach
+  style: 'top'
+  position: 0
+
+- name: HR19.jpg
+  title: HeartRockowanie 2019
+  style: 'bottom'
+  position: 1
+
+- name: HR18.jpg
+  title: HeartRockowanie 2018
+  style: 'bottom'
+  position: 2

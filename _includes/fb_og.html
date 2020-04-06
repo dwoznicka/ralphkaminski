@@ -1,0 +1,21 @@
+<meta property="og:title" content="{{ site.title | xml_escape }}">
+<meta property="og:description" content="{% if page.title %} {{ page.title }} {% endif %}">
+
+{% if page.image_index_url %}
+<meta property="og:image" content="{{ page.image_index_url }}">
+{% else %}
+<meta property="og:image" content="{{ 'favicon/apple-icon-120x120.png' | asset_path | absolute_url}}">
+{% endif %}
+
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="600">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:site_name" content="{{ site.name | xml_escape }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="{{ 'favicon/apple-icon-120x120.png' | asset_path | absolute_url}}">
+<meta name="twitter:title" content="{{ site.title | xml_escape }}">
+
+<meta name="twitter:description" content="{{ page.title }}">
+
+<meta name="twitter:url" content="{{ page.url | absolute_url }}">

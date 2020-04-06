@@ -1,0 +1,29 @@
+@import 'scss/colors';
+@import 'scss/navbar';
+@import 'scss/home';
+@import 'scss/archive';
+@import 'scss/contact';
+
+html, body {
+  margin: 0; padding: 0;
+}
+
+body,
+body * {
+  color: $brand-black;
+  font-family: 'Montserrat', sans-serif;
+}
+  
+body {
+  background: $brand-white;
+  background-size: contain;
+  background-repeat: repeat;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+}
+
+hr {
+  border-top: 4px solid rgba(255,255,255,.1);
+  width: 100%;
+}
