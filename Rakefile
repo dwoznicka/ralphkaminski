@@ -12,10 +12,10 @@ GITHUB_REPONAME = "dwoznicka/ralphkaminski"
 namespace :site do
   desc "Generate blog files"
   task :generate do
-    # Jekyll::Site.new(Jekyll.configuration({
-    #   "source"      => ".",
-    #   "destination" => "_site"
-    # })).process
+    Jekyll::Site.new(Jekyll.configuration({
+      "source"      => ".",
+      "destination" => "_site"
+    })).process
     
     system "touch _site/CNAME"
     # system "echo 'ralphkaminski.com' >> _site/CNAME"
