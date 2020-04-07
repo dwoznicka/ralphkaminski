@@ -27,23 +27,26 @@ $(window).on('load',function() {
 });
 
 $(document).ready(function() {
+  var $videoGallery = $('.videoGallery');
   
-  var $homeGallery = $('.home-gallery');
-  if ($homeGallery.length) {
-    $homeGallery.slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      draggable: true,
-      vertical: false,
-      infinite: true,
-      arrows: false,
-      dots: false,
-      pauseOnHover: false,
-      pauseOnFocus: false,
-      variableWidth: true,
-      autoplaySpeed: 5500,
-      speed: 1000
-    });
-  }
+  $('#video').on('shown.bs.modal', function (e) {
+    if ($videoGallery.length) {
+      $videoGallery.slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: false,
+          draggable: false,
+          vertical: false,
+          infinite: false,
+          arrows: true,
+          dots: false,
+          pauseOnHover: false,
+          pauseOnFocus: false,
+          variableWidth: true,
+          autoplaySpeed: 5500,
+          speed: 800
+      });
+    }
+  });
+
 });
