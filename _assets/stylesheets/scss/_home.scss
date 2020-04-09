@@ -204,6 +204,7 @@ footer {
     opacity: 0.9;
     width: 30px;
     text-align: center;
+    margin: 0 auto;
 
     &:hover {
       text-decoration: none;
@@ -347,11 +348,6 @@ a {
       transform: scale(1.05);
       opacity: 1;
     }
-
-    @media (max-width: $screen-xs-max) {
-      width: 70px;
-      width: 18vw;
-    }
   }
 
   button {
@@ -373,11 +369,6 @@ a {
       text-decoration: none;
       transform: scale(1.05);
       opacity: 1;
-    }
-
-    @media (max-width: $screen-xs-max) {
-      width: 70px;
-      width: 18vw
     }
   }
 }
