@@ -48,6 +48,7 @@
     width: 100%;
     align-items: flex-end;
     justify-content: space-between;
+    flex-direction: row;
 
     padding: 20px;
     text-shadow: 1px 1px 15px $brand-black;
@@ -169,6 +170,7 @@
 
 footer {
   font-size: 10px;
+  position: relative;
 }
 
 .footer-mediaList {
@@ -177,6 +179,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-direction: row;
 
   font-size: 30px;
 
@@ -203,14 +206,10 @@ footer {
 }
 
 .footer-copyright {
-  position: fixed;
-  bottom: 10px;
+  position: absolute;
+  bottom: -30px;
   width: 95vw;
   left: 2.5vw;
-
-  @media (max-width: $screen-xs-max) {
-    bottom: 5px;
-  }
 }
 
 .footer-copyrightList {
@@ -259,7 +258,7 @@ a {
 
   @media (max-width: $screen-xs-max) {
     width: 80vw;
-    height: 60vh;
+    height: auto;
     margin-left: 10vw;
   }
 
@@ -267,6 +266,10 @@ a {
     object-fit: cover;
     object-position: top;
     width: 100%;
+
+    @media (max-height: 500px) {
+      object-position: 0 -40px;
+    }
   }
 }
 
@@ -277,6 +280,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
   margin-bottom: 10px;
   font-size: 2vw;
 
@@ -297,6 +301,7 @@ a {
   margin: 40px 0 25px;
   display: flex;
   justify-content: space-evenly;
+  flex-direction: row;
   align-items: center;
   font-size: 1.5vw;
 
@@ -345,7 +350,7 @@ a {
 
 .video-dialog {
   width: 90vw;
-  max-width: 1200px;
+  max-width: none;
   height: 75vh;
   max-height: 1200px;
   margin-top: 7.5vh;
