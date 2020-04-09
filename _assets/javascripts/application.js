@@ -35,6 +35,9 @@ function autoWidthFlexbox () {
   $('.home-image-title--normal').each(function (e, i) {
     this.style.width = "auto";
   });
+  $('.footer-mediaList-item').each(function (e, i) {
+    this.style.width = "auto";
+  });
 }
 
 

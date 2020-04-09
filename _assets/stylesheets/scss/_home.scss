@@ -187,6 +187,12 @@ footer {
   margin: 0 auto;
   margin-bottom: 20px;
 
+  li {
+    width: 33vw;
+    width: calc(100vw/3);
+    text-align: center;
+  }
+
   @media(max-width: $screen-xs-max) {
     width: 90%;
     font-size: 15px;
@@ -299,6 +305,14 @@ a {
     width: 80vw;
     margin-left: 10vw;
     font-size: 4vw;
+    
+    &--bold {
+      width: 50vw;
+    }
+  
+    &--normal {
+      width: 30vw;
+    }
   }
 }
 
@@ -325,7 +339,7 @@ a {
     transition: 0.2s all ease-in;
     opacity: 0.9;
     width: 100px;
-    width: calc(100vh/5);
+    width: 20vw;
     text-align: center;
 
     &:hover {
@@ -336,7 +350,7 @@ a {
 
     @media (max-width: $screen-xs-max) {
       width: 70px;
-      width: calc(90vw/5);
+      width: 18vw;
     }
   }
 
@@ -351,7 +365,7 @@ a {
     cursor: pointer;
     background-color: transparent;
     width: 100px;
-    width: calc(90vh/5);
+    width: 20vw;
     text-align: center;
     padding: 0;
 
@@ -363,7 +377,7 @@ a {
 
     @media (max-width: $screen-xs-max) {
       width: 70px;
-      width: calc(90vw/5);
+      width: 18vw
     }
   }
 }
