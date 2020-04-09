@@ -28,8 +28,16 @@ $(window).on('load',function() {
 
 $(document).ready(function() {
   var $videoGallery = $('.videoGallery');
+  var videoDialog = $('#videoDialog');
   
   $('#video').on('shown.bs.modal', function (e) {
+
+    // $('.videoIframe').each(function (index, element) {
+    //   this.height = (videoDialog.offsetHeight - 50) + "px";
+    // });
+
+
+
     if ($videoGallery.length) {
       $videoGallery.slick({
           slidesToShow: 1,
@@ -44,7 +52,9 @@ $(document).ready(function() {
           pauseOnFocus: false,
           variableWidth: true,
           autoplaySpeed: 5500,
-          speed: 800
+          speed: 800,
+          prevArrow: $('.prev'),
+          nextArrow: $('.next')
       });
     }
   });

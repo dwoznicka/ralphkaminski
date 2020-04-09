@@ -50,11 +50,11 @@ title: 'Oficjalna strona Ralpha Kaminskiego'
 
           <div class="modal-body">
             <p style="text-align:center;">
-              <b>ARTGRUPA</b> <br/><br/>
+              <a href="https://www.facebook.com/artgrupa1999/" target="_blank"><b>ARTGRUPA</b></a><br/>
               management / koncerty / promocja <br/><br/>
+              <i>Krzysztof Dominik</i><br/><br/>
               Email: <a href="mailto:biuro@artgrupa.net">biuro@artgrupa.net</a><br/>
               Telefon: <a href="tel:+48602319694">+48 602 319 694</a> <br/>
-              <i>Krzysztof Dominik</i>
             </p>
           </div>
       </div>
@@ -62,18 +62,23 @@ title: 'Oficjalna strona Ralpha Kaminskiego'
 </div>
 
 <div class="modal fade" id="video" tabindex="-1" role="dialog" aria-labelledby="videoLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog video-dialog" id="videoDialog" role="document">
       <div class="modal-content">
 
           <div class="modal-body videoGallery">
             {% assign videos = site.data.videos | sort:"position" %}
+
             {% for video in videos %}
                 <div class="music-video-container">
-                  <iframe width="100%" height="300" src="{{ video.url }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="z-index: 100;"></iframe>
+                  <iframe id="iframe{{ video.position }}" class="videoIframe" src="{{ video.url }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="z-index: 100; width: 88vw; max-width: 100%; height: 65vh; max-height: 1200px;"></iframe>  
                 </div>
+
             {% endfor %}
           </div>
-
+          <ul style="list-style: none; padding: 0;">
+            <li class="prev"></li>
+            <li class="next"></li>
+        </ul>
       </div>
   </div>
 </div>
