@@ -196,6 +196,8 @@ footer {
     display: block;
     transition: 0.2s all ease-in;
     opacity: 0.9;
+    width: 30px;
+    text-align: center;
 
     &:hover {
       text-decoration: none;
@@ -251,7 +253,7 @@ a {
 
 
 .home-image-container {
-  height: 50vh;
+  height: 60vh;
   width: 34vw;
   margin-left: 33vw;
   overflow: hidden;
@@ -286,6 +288,11 @@ a {
 
   &--bold {
     font-weight: bold;
+    width: 22vw;
+  }
+
+  &--normal {
+    width: 12vw;
   }
 
   @media (max-width: $screen-xs-max) {
@@ -317,11 +324,19 @@ a {
     display: block;
     transition: 0.2s all ease-in;
     opacity: 0.9;
+    width: 100px;
+    width: calc(100vh/5);
+    text-align: center;
 
     &:hover {
       text-decoration: none;
       transform: scale(1.05);
       opacity: 1;
+    }
+
+    @media (max-width: $screen-xs-max) {
+      width: 70px;
+      width: calc(90vw/5);
     }
   }
 
@@ -335,11 +350,20 @@ a {
     opacity: 0.9;
     cursor: pointer;
     background-color: transparent;
+    width: 100px;
+    width: calc(90vh/5);
+    text-align: center;
+    padding: 0;
 
     &:hover {
       text-decoration: none;
       transform: scale(1.05);
       opacity: 1;
+    }
+
+    @media (max-width: $screen-xs-max) {
+      width: 70px;
+      width: calc(90vw/5);
     }
   }
 }
