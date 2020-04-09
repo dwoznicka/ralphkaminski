@@ -31,6 +31,13 @@
         <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;">
     </head>
     <body class="base {% if page.body_class %}{{ page.body_class }}{% endif %}{% if layout.body_class %}{{ layout.body_class }}{% endif %}">
+        <script type="text/javascript">
+          function stopYoutube () {
+            $('.videoIframe').each(function(){
+              this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
+            });
+          }
+        </script>
         {{ content }}
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
 

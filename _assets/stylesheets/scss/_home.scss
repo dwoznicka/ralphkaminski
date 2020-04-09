@@ -374,11 +374,11 @@ a {
 
 .video-dialog {
   width: 90vw;
-  max-width: none;
+  max-width: 900px;
   height: 75vh;
   max-height: 1200px;
+  margin: 0 auto;
   margin-top: 7.5vh;
-  margin-left: 5vw;
 
   .modal-content {
     height: 100%;

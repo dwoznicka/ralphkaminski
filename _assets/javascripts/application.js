@@ -37,6 +37,12 @@ function autoWidthFlexbox () {
   });
 }
 
+function stopYoutube () {
+  $('.videoIframe').each(function(){
+    this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
+  });
+}
+
 $(window).on('load',function() {
   smooth_scroll_to(window.location.hash);
 });
