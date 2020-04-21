@@ -193,10 +193,6 @@ footer {
     text-align: center;
   }
 
-  @media(max-width: $screen-xs-max) {
-    width: 90%;
-    font-size: 15px;
-  }
 
   a {
     display: block;
@@ -211,6 +207,25 @@ footer {
       transform: scale(1.05);
       opacity: 1;
     }
+  }
+
+  @media(max-width: $screen-xs-max) {
+    width: 90%;
+    font-size: 15px;
+    margin-top: 15px;
+
+    li {
+      display: block;
+      width: 100%;
+      text-align: center;
+
+      a, button {
+        width: 100% !important;
+        text-align: center;
+        margin: 15px 0;
+      }
+    }
+    
   }
 }
 
@@ -334,6 +349,19 @@ a {
   @media (max-width: $screen-xs-max) {
     font-size: 3vw;
     padding: 0 5vw;
+    display: block;
+
+    li {
+      display: block;
+      width: 100%;
+      text-align: center;
+
+      a, button {
+        width: 100% !important;
+        text-align: center;
+        margin: 15px 0;
+      }
+    }
   }
 
   a {
