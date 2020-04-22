@@ -183,7 +183,7 @@ footer {
 
   font-size: 30px;
 
-  width: 60%;
+  width: 30%;
   margin: 0 auto;
   margin-bottom: 20px;
 
@@ -309,12 +309,13 @@ a {
   font-size: 2vw;
 
   &--bold {
-    font-weight: bold;
+    font-weight: 700;
     width: 22vw;
   }
 
   &--normal {
     width: 12vw;
+    font-weight: 600;
   }
 
   @media (max-width: $screen-xs-max) {
@@ -486,3 +487,8 @@ a {
     }
   }
 }
+
+
+// .hidden {
+//   display: none;
+// }
