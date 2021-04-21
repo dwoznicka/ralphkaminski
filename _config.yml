@@ -5,8 +5,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ralphkaminski.com" # production
 # url: "https://dwoznicka.github.io/ralphkaminski" # github pages
 
-copyright: 2020 © <a href="https://ralphkaminski.com" class="site-link">Ralph Kaminski</a>. Wszelkie prawa zastrzeżone.
-copyright_short: 2020 © <a href="https://ralphkaminski.com" class="site-link">Ralph Kaminski</a>.
+copyright: 2021 © <a href="https://ralphkaminski.com" class="site-link">Ralph Kaminski</a>. Wszelkie prawa zastrzeżone.
+copyright_short: 2021 © <a href="https://ralphkaminski.com" class="site-link">Ralph Kaminski</a>.
 made_by: 'Made with ❤ by <a href="https://www.facebook.com/DariaWoznickaManagement/" target="_blank">DW</a>'
 # Build settings
 markdown: kramdown
