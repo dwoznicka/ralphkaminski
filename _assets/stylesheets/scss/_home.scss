@@ -295,6 +295,11 @@ a {
     object-position: top;
     width: 100%;
   }
+
+  &--kora {
+    width: 100vw;
+    margin-left: unset;
+  }
 }
 
 .home-image-title {
@@ -486,6 +491,44 @@ a {
       display: inline-block;
     }
   }
+}
+
+.kora-dates-list {
+  list-style: none;
+  padding: 0;
+  width: 50vw;
+  margin-top: 50px;
+  margin-left: 25vw;
+
+  li {
+    text-align: center;
+    margin-top: 10px;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 21px;
+      transition: 0.2s all ease-in;
+
+      &:hover {
+        background-color: $brand-white;
+        color: $brand-kora;
+        text-decoration: none;
+        transform: scale(1.05);
+
+        * {
+          color: $brand-kora;
+        }
+      }
+    }
+  }
+
+  @media (max-width: $screen-xs-max) {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+
 }
 
 
