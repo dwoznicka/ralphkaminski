@@ -18,14 +18,15 @@ body {
   width: 100%;
   max-width: 100%;
 
-  &.kora {
-    background-color: $brand-kora;
-    color: $brand-white;
+}
 
-    * {
-      color: $brand-white;
-    }
-  }
+body.kora {
+  background-color: $brand-kora;
+  color: $brand-white;
+}
+
+body.kora * {
+  color: $brand-white;
 }
 
 hr {
