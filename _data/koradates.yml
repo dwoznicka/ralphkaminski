@@ -1,69 +1,69 @@
-- url: 'https://www.youtube.com/'
+- url: '#'
   place: OLSZTYN
   date: 27.11
   position: 0
 
-- url: 'https://www.youtube.com/'
+- url: '#'
   place: GDAŃSK
   date: 28.11
   position: 1
 
-- url: 'https://www.youtube.com/'
+- url: '#'
   place: WARSZAWA
   date: 29.11
   position: 2
 
-- url: 'https://www.youtube.com/'
+- url: '#'
   place: BIAŁYSTOK
   date: 01.12
   position: 3
 
-- url: 'https://www.youtube.com/'
+- url: '#'
   place: KATOWICE
   date: 05.12
   position: 4
 
-- url: 'https://www.youtube.com/'
+- url: '#'
   place: KRAKÓW
   date: 06.12
   position: 5
 
-- url: 'https://www.youtube.com/'
+- url: '#'
   place: LUBLIN
   date: 13.12
   position: 6
 
-- url: 'https://www.youtube.com/'
+- url: '#'
   place: RZESZÓW
   date: 14.12
   position: 7
 
-- url: 'https://www.youtube.com/'
+- url: '#'
   place: ŁÓDŹ
   date: 17.12
   position: 8
 
-- url: 'https://www.youtube.com/'
+- url: '#'
   place: WROCŁAW
   date: 20.12
   position: 9
 
-- url: 'https://www.youtube.com/'
+- url: '#'
   place: POZNAŃ
   date: 21.12
   position: 10
 
-- url: 'https://www.youtube.com/'
+- url: '#'
   place: TORUŃ
   date: 11.01
   position: 11
 
-- url: 'https://www.youtube.com/'
+- url: '#'
   place: SZCZECIN
   date: 12.01
   position: 12
 
-- url: 'https://www.youtube.com/'
+- url: '#'
   place: BYDGOSZCZ
   date: 13.01
   position: 13

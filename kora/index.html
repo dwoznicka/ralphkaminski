@@ -4,6 +4,28 @@
 
 layout: base
 title: 'Trasa KORA: Oficjalna strona Ralpha Kaminskiego'
-
+body_class: kora
 ---
 
+<div class="home-section hide hidden">
+  <div class="home-image-section">
+    <div class="home-image-container home-image-container--kora">
+      <img src="{{ 'KORA.png' | asset_path | absolute_url}}" alt="Ralph Kaminski KORA" title="Ralph Kaminski KORA">
+    </div>
+  </div>
+
+  <div class="home-tour-section">
+    <ul class="kora-dates-list">
+      {% assign dates = site.data.koradates | sort:"position" %}
+
+      {% for date in dates %}
+        <li>
+          <a  href="{{ date.url }}">
+            <span style="font-weight: bold;">{{ date.place }}</span>
+            <span>{{ date.date }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
