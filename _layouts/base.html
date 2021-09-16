@@ -30,6 +30,47 @@
         <link rel="stylesheet" href="{{ 'style.css' | asset_path | absolute_url }}">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;">
+        <style>
+          body.kora {
+            background-color: #941F1F;
+            color: #ffffff;
+          }
+
+          body.kora * {
+            color: #ffffff;
+          }
+
+          .kora-dates-list {
+            list-style: none;
+            padding: 0;
+            width: 50vw;
+            margin-top: 50px;
+            margin-left: 25vw; }
+            .kora-dates-list li {
+              text-align: center;
+              margin-top: 10px; }
+              .kora-dates-list li a {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 21px;
+                transition: 0.2s all ease-in; }
+                .kora-dates-list li a:hover {
+                  background-color: #ffffff;
+                  color: #941F1F;
+                  text-decoration: none;
+                  transform: scale(1.05); }
+                  .kora-dates-list li a:hover * {
+                    color: #941F1F; }
+            @media (max-width: 767px) {
+              .kora-dates-list {
+                width: 90vw;
+                margin-left: 5vw; } }
+          .home-image-container--kora {
+            width: 100vw;
+            margin-left: unset; }
+        </style>
+    
     </head>
     <body class="base {% if page.body_class %}{{ page.body_class }}{% endif %}{% if layout.body_class %}{{ layout.body_class }}{% endif %}">
         <script type="text/javascript">
