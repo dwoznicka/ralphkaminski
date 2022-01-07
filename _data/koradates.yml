@@ -1,94 +1,79 @@
-- url: 'https://www.facebook.com/events/555517599120751'
-  place: OLSZTYN
-  date: 27.11
-  position: 0
-
-- url: 'https://www.facebook.com/events/626495321817613'
-  place: GDAŃSK
-  date: 28.11 (17:30)
-  position: 1
-
-- url: 'https://www.facebook.com/events/2880966482214885'
-  place: GDAŃSK
-  date: 28.11 (20:00)
-  position: 2
-
-- url: 'https://www.facebook.com/events/199639632122179' 
-  place: WARSZAWA
-  date: 29.11
-  position: 3
-
-- url: 'https://www.facebook.com/events/653996982237657'
-  place: WARSZAWA
-  date: 30.11
-  position: 4
-
-- url: 'https://www.facebook.com/events/285383176416303'
-  place: BIAŁYSTOK
-  date: 01.12
-  position: 5
-
-- url: 'https://www.facebook.com/events/623682158791083'
-  place: KATOWICE
-  date: 05.12 (17:30)
-  position: 6
-
-- url: 'https://www.facebook.com/events/527807448311125'
-  place: KATOWICE
-  date: 05.12 (20:00)
-  position: 7
-
-- url: 'https://www.facebook.com/events/2129376207202907'
-  place: KRAKÓW
-  date: 06.12 (18:00)
-  position: 8
-
-- url: 'https://www.facebook.com/events/901725100462414'
-  place: KRAKÓW
-  date: 06.12 (20:30)
-  position: 9
-
-- url: 'https://www.facebook.com/events/923513058377358'
-  place: LUBLIN
-  date: 13.12
-  position: 10
-
-- url: 'https://www.facebook.com/events/437528301034765'
-  place: RZESZÓW
-  date: 14.12
-  position: 11
-
-- url: 'https://www.facebook.com/events/391305509107599'
-  place: ŁÓDŹ
-  date: 17.12
-  position: 12
-
-- url: 'https://www.facebook.com/events/607445796963514'
-  place: ŚWIDNICA
-  date: 19.12
-  position: 13
-
-- url: 'https://www.facebook.com/events/3012042452375353/'
-  place: WROCŁAW
-  date: 20.12
-  position: 14
-
-- url: 'https://www.facebook.com/events/4288275134593400'
-  place: POZNAŃ
-  date: 21.12
-  position: 15
-
 - url: 'https://www.facebook.com/events/236516791746103'
   place: TORUŃ
   date: 11.01
-  position: 16
+  position: 0
 
 - url: 'https://www.facebook.com/events/996233874587401'
   place: SZCZECIN
   date: 12.01
-  position: 17
+  position: 1
 
 - url: 'https://www.facebook.com/events/439762467440219'
   place: BYDGOSZCZ
   date: 13.01
-  position: 18
+  position: 2
+
+- url: 'https://www.facebook.com/events/441262900951617'
+  place: RADZYMIN
+  date: 21.01
+  position: 3
+
+- url: 'https://www.facebook.com/events/4811685195520102'
+  place: KOSZALIN
+  date: 31.01
+  position: 4
+
+- url: 'https://www.facebook.com/events/997609194122772'
+  place: GDYNIA
+  date: 1.02
+  position: 5
+
+- url: 'https://www.facebook.com/events/648851119814913'
+  place: WARSZAWA
+  date: 11.02
+  position: 6
+
+- url: 'https://www.facebook.com/events/276010787755219'
+  place: KALISZ
+  date: 12.02
+  position: 7
+
+- url: '#'
+  place: BIELSKO-BIAŁA
+  date: 14.02
+  position: 8
+
+- url: 'https://www.facebook.com/events/907496729906706'
+  place: KONIN
+  date: 26.02
+  position: 9
+
+- url: 'https://www.facebook.com/events/293481559269993'
+  place: KRAKÓW
+  date: 12.03
+  position: 10
+
+- url: 'https://www.facebook.com/events/4648166658570226'
+  place: GORZÓW WLKP
+  date: 15.03
+  position: 11
+
+- url: 'https://www.facebook.com/events/178989667734135'
+  place: STARGARD
+  date: 16.03
+  position: 12
+
+- url: 'https://www.facebook.com/events/453258803040399'
+  place: OSTRÓW WLKP
+  date: 17.03
+  position: 13
+
+- url: 'https://www.facebook.com/events/875883126414789'
+  place: LESZNO
+  date: 18.03
+  position: 14
+
+- url: 'https://www.facebook.com/events/445335113764161'
+  place: GNIEZNO
+  date: 19.03
+  position: 15
