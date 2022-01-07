@@ -274,21 +274,14 @@ a {
 
   &:hover {
     text-decoration: underline;
-    color: $brand-black;
+    color: $brand-white;
   }
 }
 
 
 .home-image-container {
   height: auto;
-  width: 34vw;
-  margin-left: 33vw;
-
-  @media (max-width: $screen-xs-max) {
-    width: 60vw;
-    height: auto;
-    margin-left: 20vw;
-  }
+  width: 100vw;
 
   img {
     object-fit: cover;
@@ -366,6 +359,7 @@ a {
         width: 100% !important;
         text-align: center;
         margin: 15px 0;
+        font-weight: bold;
       }
     }
   }
@@ -377,6 +371,7 @@ a {
     width: 100px;
     width: 12vw;
     text-align: center;
+    font-weight: bold;
 
     &:hover {
       text-decoration: none;
@@ -399,6 +394,7 @@ a {
     width: 12vw;
     text-align: center;
     padding: 0;
+    font-weight: bold;
 
     &:hover {
       text-decoration: none;
@@ -410,6 +406,8 @@ a {
 
 .modal-content {
   border-radius: 0;
+  background-color: $brand-kora;
+  color: $brand-white;
 }
 
 .video-dialog {
@@ -470,15 +468,19 @@ a {
 
 .listen-link {
   padding: 15px;
-  border: 1px solid #aaa;
+  border: 1px solid $brand-white;
   border-radius: 4px;
   background: transparent;
   transition: 0.4s all ease-in;
 
   &:hover {
-    background: #aaa;
-    color: white;
+    background: $brand-white;
+    color: $brand-kora !important;
     text-decoration: none;
+
+    * {
+      color: $brand-kora;
+    }
   }
 }
 
