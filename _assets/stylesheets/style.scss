@@ -12,7 +12,8 @@ body * {
 }
   
 body {
-  background: $brand-kora;
+  background-image: url('https://ralphkaminski.com/assets/background.png');
+  background-color: $brand-kora;
   background-size: contain;
   background-repeat: repeat;
   width: 100%;
@@ -21,6 +22,7 @@ body {
 }
 
 body.kora {
+  background-image: url('https://ralphkaminski.com/assets/background.png');
   background-color: $brand-kora;
   color: $brand-white;
 }
