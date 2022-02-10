@@ -1,105 +1,105 @@
-- url: 'https://www.facebook.com/events/4811685195520102'
-  place: KOSZALIN
-  date: 31.01
-  position: 0
-
-- url: 'https://www.facebook.com/events/997609194122772'
-  place: GDYNIA
-  date: 1.02
-  position: 1
-
 - url: 'https://www.facebook.com/events/648851119814913'
   place: WARSZAWA
   date: 11.02
-  position: 2
+  position: 0
 
 - url: 'https://www.facebook.com/events/276010787755219'
   place: KALISZ
   date: 12.02
-  position: 3
+  position: 1
 
 - url: 'https://www.facebook.com/events/669250834204668/'
   place: WARSZAWA
   date: 13.02
-  position: 4
+  position: 2
 
 - url: 'https://www.facebook.com/events/344272040593745/'
   place: BIELSKO-BIAŁA
   date: 14.02
-  position: 5
+  position: 3
 
 - url: 'https://www.facebook.com/events/907496729906706'
   place: KONIN
   date: 26.02
-  position: 6
+  position: 4
 
 - url: 'https://www.facebook.com/events/441262900951617'
   place: RADZYMIN
   date: 27.02
-  position: 7
+  position: 5
 
 - url: 'https://www.facebook.com/events/631906144712921/'
   place: SZCZECIN
   date: 2.03
-  position: 8
+  position: 6
 
 - url: 'https://www.facebook.com/events/274528254668320/'
   place: POZNAŃ
   date: 3.03
-  position: 9
+  position: 7
+
+- url: 'https://www.facebook.com/events/630253021528468/'
+  place: KRAKÓW
+  date: 12.03 (18:00)
+  position: 8
 
 - url: 'https://www.facebook.com/events/293481559269993'
   place: KRAKÓW
-  date: 12.03
-  position: 10
+  date: 12.03 (20:30)
+  position: 9
 
 - url: 'https://www.facebook.com/events/4648166658570226'
   place: GORZÓW WLKP
   date: 15.03
-  position: 11
+  position: 10
 
 - url: 'https://www.facebook.com/events/178989667734135'
   place: STARGARD
   date: 16.03
-  position: 12
+  position: 11
 
 - url: 'https://www.facebook.com/events/453258803040399'
   place: OSTRÓW WLKP
   date: 17.03
-  position: 13
+  position: 12
 
 - url: 'https://www.facebook.com/events/875883126414789'
   place: LESZNO
   date: 18.03
-  position: 14
+  position: 13
 
 - url: 'https://www.facebook.com/events/1268654123633919'
   place: ZIELONA GÓRA
   date: 20.03
-  position: 15
+  position: 14
 
 - url: 'https://www.facebook.com/events/445335113764161'
   place: GNIEZNO
   date: 27.03
-  position: 16
+  position: 15
 
 - url: 'https://www.facebook.com/events/3018848405111482/'
   place: CZĘSTOCHOWA
   date: 3.04
-  position: 17
+  position: 16
 
 - url: 'https://www.facebook.com/events/615673033041303/'
   place: RZESZÓW
   date: 7.04
-  position: 18
+  position: 17
 
 - url: 'https://www.facebook.com/events/1353036098443963/'
   place: CHEŁM
   date: 8.04
-  position: 19
+  position: 18
 
 - url: 'https://www.facebook.com/events/653176855867164/'
   place: ŁÓDŹ
   date: 13.04
+  position: 19
+
+- url: 'https://www.facebook.com/events/476996717341640/'
+  place: DĄBROWA GÓRNICZA
+  date: 23.04
   position: 20
 
