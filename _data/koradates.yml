@@ -98,8 +98,17 @@
   date: 13.04
   position: 19
 
+- url: 'https://www.facebook.com/events/436411818171437/'
+  place: RYBNIK
+  date: 22.04
+  position: 20
+
 - url: 'https://www.facebook.com/events/476996717341640/'
   place: DĄBROWA GÓRNICZA
   date: 23.04
-  position: 20
+  position: 21
 
+- url: 'https://www.facebook.com/events/1595071864205167/'
+  place: RADOM
+  date: 24.04
+  position: 22
