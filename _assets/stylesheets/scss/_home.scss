@@ -18,7 +18,7 @@
   &-section {
     margin-bottom: 50px;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 2vh;
 
     @media (max-width: $screen-xs-max) {
       margin-bottom: 15px;
@@ -282,11 +282,13 @@ a {
 .home-image-container {
   height: auto;
   width: 100vw;
+  text-align: center;
 
   img {
+    max-width: 100%;
+    height: 85vh;
+    margin: auto 0;
     object-fit: cover;
-    object-position: top;
-    width: 100%;
   }
 
   &--kora {
@@ -406,9 +408,8 @@ a {
 
 .modal-content {
   border-radius: 0;
-  background-image: url('https://ralphkaminski.com/assets/background1.png');
-  background-color: $brand-kora;
-  color: $brand-white;
+  background-color: $brand-white;
+  color: $brand-black;
 }
 
 .video-dialog {
@@ -469,18 +470,18 @@ a {
 
 .listen-link {
   padding: 15px;
-  border: 1px solid $brand-white;
+  border: 1px solid $brand-black;
   border-radius: 4px;
   background: transparent;
   transition: 0.4s all ease-in;
 
   &:hover {
-    background: $brand-white;
-    color: $brand-kora !important;
+    background: $brand-black;
+    color: $brand-white !important;
     text-decoration: none;
 
     * {
-      color: $brand-kora;
+      color: $brand-white;
     }
   }
 }
@@ -493,6 +494,15 @@ a {
     a {
       display: inline-block;
     }
+  }
+}
+
+.home-tour-section {
+  &--title {
+    width: 50vw;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 30px;
   }
 }
 
@@ -522,6 +532,23 @@ a {
 
         * {
           color: $brand-kora;
+        }
+      }
+    }
+  }
+
+  &.summer {
+    li {
+      a {
+        &:hover {
+          background-color: $brand-black;
+          color: $brand-white;
+          text-decoration: none;
+          transform: scale(1.05);
+  
+          * {
+            color: $brand-white;
+          }
         }
       }
     }

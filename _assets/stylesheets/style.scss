@@ -7,20 +7,14 @@ html, body {
 
 body,
 body * {
-  color: $brand-white;
+  color: $brand-black;
   font-family: 'Montserrat', sans-serif;
 }
   
 body {
-  background: url('https://ralphkaminski.com/assets/background1.png') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: $brand-kora;
+  background-color: white;
   width: 100%;
   max-width: 100%;
-
 }
 
 body.kora {

@@ -3,20 +3,20 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: base
-title: 'Trasa KORA: Oficjalna strona Ralpha Kaminskiego'
-body_class: kora
+title: 'Trasa LATO 2022: Oficjalna strona Ralpha Kaminskiego'
 ---
 
 <div class="home-section hide hidden">
   <div class="home-image-section">
     <div class="home-image-container home-image-container--kora">
-      <img src="{{ 'KORA1.png' | asset_path | absolute_url}}" alt="Ralph Kaminski KORA" title="Ralph Kaminski KORA">
+      <img src="{{ 'Ralph.jpg' | asset_path | absolute_url}}" alt="Ralph Kaminski Lato 2022" title="Ralph Kaminski Trasa koncertowa">
     </div>
   </div>
 
   <div class="home-tour-section">
-    <ul class="kora-dates-list ">
-      {% assign dates = site.data.koradates | sort:"position" %}
+    <h1 class="home-tour-section--title"> RALPH KAMINSKI  Lato 2022</h1>
+    <ul class="kora-dates-list summer">
+      {% assign dates = site.data.summerdates | sort:"position" %}
 
       {% for date in dates %}
         <li>
