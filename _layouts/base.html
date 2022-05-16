@@ -10,9 +10,6 @@
 
         <script type="text/javascript" src="{{ 'pace.js' | asset_path | absolute_url }}"></script>
         <script type="text/javascript">
-          Pace.on('done', function () {
-            $('.hide').removeClass('hide');
-          });
         </script>
         <link rel="stylesheet" href="{{ 'pace.css' | asset_path | absolute_url }}">
         <meta name="copyright" content="{{ site.copyright | strip_html | xml_escape }}"/>
@@ -442,6 +439,9 @@ a {
     .kora-dates-list {
       width: 90vw;
       margin-left: 5vw; } }
+  @media (max-width: 767px) {
+    .kora-dates-list li a {
+      font-size: 16px; } }
 
 html, body {
   margin: 0;
