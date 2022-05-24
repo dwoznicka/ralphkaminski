@@ -1,3 +1,13 @@
+- url: 'https://kalevala.pl/'
+  place: BOROWICE
+  date: 2 LIPCA
+  position: -2
+
+- url: 'https://www.facebook.com/events/1088319875434558/'
+  place: OPOLE
+  date: 8 LIPCA
+  position: -1
+
 - url: 'https://www.facebook.com/events/2275758262560358/'
   place: MARKI
   date: 9 LIPCA
@@ -77,6 +87,11 @@
   place: OBORNIKI
   date: 13 SIERPNIA
   position: 15
+
+- url: 'https://www.facebook.com/events/332512731656808/'
+  place: OLSZTYN
+  date: 14 SIERPNIA
+  position: 15.5
 
 - url: 'https://www.facebook.com/events/360902009298517/360902019298516/'
   place: GDAŃSK
