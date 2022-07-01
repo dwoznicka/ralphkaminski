@@ -1,55 +1,59 @@
+- url: 'https://www.youtube.com/embed/KX1kg8wWTPo'
+  title: 'Ralph Kaminski - Krystyna'
+  position: 0
+
 - url: 'https://www.youtube.com/embed/WbE-x0hZjiY'
   title: 'Ralph Kaminski - Duchy'
-  position: 0
+  position: 1
 
 - url: 'https://www.youtube.com/embed/TBvK5qCa_k0'
   title: 'Ralph Kaminski - Bal u Rafała'
-  position: 1
+  position: 2
 
 - url: 'https://www.youtube.com/embed/FXkhLrIGAAA'
   title: 'Ralph Kaminski - Po Prostu Bądź (KORA/MAANAM)'
-  position: 2
+  position: 3
 
 - url: 'https://www.youtube.com/embed/xfcubnKKAxU'
   title: 'Ralph Kaminski - Biegnij Razem Ze Mną (KORA/MAANAM)'
-  position: 3
+  position: 4
 
 - url: 'https://www.youtube.com/embed/SyODVdym-Dw'
   title: 'Ralph Kaminski - Tata'
-  position: 4
+  position: 5
 
 - url: 'https://www.youtube.com/embed/ARZAUVpvxw8'
   title: 'Ralph Kaminski - Autobusy'
-  position: 5
+  position: 6
 
 - url: 'https://www.youtube.com/embed/GDOpp1CBp9E'
   title: 'Ralph Kaminski - 2009 (Official Video)'
-  position: 6
+  position: 7
 
 - url: 'https://www.youtube.com/embed/G4MPXybzoRI'
   title: 'Ralph Kaminski - Wszystkiego Najlepszego'
-  position: 7
+  position: 8
 
 - title: 'Ralph Kaminski - Kosmiczne Energie'
   url: 'https://www.youtube.com/embed/nV8FGJNQqyM'
-  position: 8
+  position: 9
 
 - url: 'https://www.youtube.com/embed/RzHd0lgNszU'
   title: 'Ralph Kaminski - Podobno'
-  position: 9
+  position: 10
 
 - url: 'https://www.youtube.com/embed/T3oDHkMOIbw'
   title: 'Ralph Kaminski - Meybick Song'
-  position: 10
+  position: 11
 
 - url: 'https://www.youtube.com/embed/LmhgYmHEQEA'
   title: 'Ralph Kaminski - Zawsze'
-  position: 11
+  position: 12
 
 - url: 'https://www.youtube.com/embed/kXYOH0MqQvg'
   title: 'Ralph Kaminski - Morze'
-  position: 12
+  position: 13
 
 - url: 'https://www.youtube.com/embed/DlzvOn8o7nM'
   title: 'Ralph Kaminski - Lato Bez Ciebie'
-  position: 13
+  position: 14
