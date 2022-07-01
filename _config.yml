@@ -1,8 +1,8 @@
 title: Ralph Kaminski
 name: Oficjalna witryna
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # development
-#url: "https://ralphkaminski.com" # production
+# url: "http://localhost:4000" # development
+url: "https://ralphkaminski.com" # production
 # url: "https://dwoznicka.github.io/ralphkaminski" # github pages
 
 copyright: 2022 © <a href="https://ralphkaminski.com" class="site-link">Ralph Kaminski</a>. Wszelkie prawa zastrzeżone.
