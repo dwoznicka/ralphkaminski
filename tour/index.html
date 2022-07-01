@@ -9,14 +9,12 @@ title: 'Trasa LATO 2022: Oficjalna strona Ralpha Kaminskiego'
 <div class="home-section hidden">
   <div class="home-image-section">
     <div class="home-image-container home-image-container--kora">
-      <img src="{{ 'Ralph.jpg' | asset_path | absolute_url}}" alt="Ralph Kaminski Lato 2022" title="Ralph Kaminski Trasa koncertowa">
+      <img src="{{ 'bal.png' | asset_path | absolute_url}}" alt="Ralph Kaminski Lato 2022" title="Ralph Kaminski Trasa koncertowa">
     </div>
   </div>
 
   <div class="home-tour-section">
-    <h1 class="home-tour-section--title">RALPH KAMINSKI</h1>
-    <h2 class="home-tour-section--subtitle"> LATO 2022 </h2>
-    <ul class="kora-dates-list summer">
+    <ul class="kora-dates-list summer ">
       {% assign dates = site.data.summerdates | sort:"position" %}
 
       {% for date in dates %}

@@ -1,159 +1,164 @@
 - url: 'https://www.facebook.com/events/2311197779146662/'
-  place: GDYNIA
-  date: 29 CZERWCA
+  place: Gdynia
+  date: 29 czerwca
   position: 0
 
 - url: 'https://www.facebook.com/events/1712725159062089/'
-  place: BOROWICE
-  date: 2 LIPCA
+  place: Borowice
+  date: 2 lipca
   position: 1
 
-- url: 'https://www.facebook.com/ZdobywcyFryderykow/'
-  place: SZCZECINEK
-  date: 3 LIPCA
+- url: 'https://www.facebook.com/events/3300187553543541/'
+  place: Szczecinek
+  date: 3 lipca
   position: 2
 
 - url: 'https://www.facebook.com/events/1088319875434558/'
-  place: OPOLE
-  date: 8 LIPCA
+  place: Opole
+  date: 8 lipca
   position: 3
 
 - url: 'https://www.facebook.com/events/2275758262560358/'
-  place: MARKI
-  date: 9 LIPCA
+  place: Marki
+  date: 9 lipca
   position: 4
 
 - url: 'https://www.facebook.com/events/697343021270190/'
-  place: PŁOCK
-  date: 10 LIPCA
+  place: Płock
+  date: 10 lipca
   position: 5
 
-- url: '#'
-  place: ZAKOPANE
-  date: 14 LIPCA
+- url: 'https://www.facebook.com/events/1035127187391919/'
+  place: Zakopane
+  date: 14 lipca
   position: 6
 
 - url: 'https://www.facebook.com/events/501866108155796/'
-  place: BIELSKO-BIAŁA
-  date: 15 LIPCA
+  place: Bielsko-Biała
+  date: 15 lipca
   position: 7
 
 - url: 'https://www.facebook.com/events/568915877451426/'
-  place: KAZIMIERZ DOLNY
-  date: 16 LIPCA
+  place: Kazimierz Dolny
+  date: 16 lipca
   position: 8
 
 - url: 'https://www.facebook.com/events/1494573917643991/'
-  place: JAROCIN
-  date: 17 LIPCA
+  place: Jarocin
+  date: 17 lipca
   position: 9
 
 - url: 'https://www.facebook.com/events/470444147542651/'
-  place: KATOWICE
-  date: 22 LIPCA
+  place: Katowice
+  date: 22 lipca
   position: 10
 
 - url: 'https://www.facebook.com/events/680335503292348/680733469919218/'
-  place: WROCŁAW
-  date: 23 LIPCA
+  place: Wrocław - Męskie Granie
+  date: 23 lipca
   position: 11
 
 - url: 'https://www.facebook.com/events/323370629888906/'
-  place: RZESZÓW
-  date: 24 LIPCA
+  place: Rzeszów
+  date: 24 lipca
   position: 12
 
-- url: 'https://www.facebook.com/events/1170575733745865/1170575743745864/'
-  place: KRAKÓW
-  date: 29 LIPCA
+- url: 'https://www.facebook.com/events/558375279226801/'
+  place: Kraków - Forty Kleparz
+  date: 28 lipca
   position: 13
 
+- url: 'https://www.facebook.com/events/1170575733745865/1170575743745864/'
+  place: Kraków - Męskie Granie
+  date: 29 lipca
+  position: 13.5
+
 - url: 'https://www.facebook.com/events/312159147631096/'
-  place: IŁAWA
-  date: 30 LIPCA
+  place: Iława
+  date: 30 lipca
   position: 14
 
 - url: 'https://www.facebook.com/events/1139745196759940/'
-  place: DĄBIE, WOJ. LUBUSKIE
-  date: 31 LIPCA
+  place: Dąbie, woj. lubuskie
+  date: 31 lipca
   position: 15
 
 - url: 'https://www.facebook.com/events/901308210685660/'
-  place: MIELNO
-  date: 5 SIERPNIA
+  place: Mielno
+  date: 5 sierpnia
   position: 16
 
 - url: 'https://www.facebook.com/events/1171759443575772/'
-  place: SZCZECIN
-  date: 6 SIERPNIA
+  place: Szczecin
+  date: 6 sierpnia
   position: 17
 
 - url: 'https://www.facebook.com/events/656932485361568/'
-  place: KIELCE
-  date: 7 SIERPNIA
+  place: Kielce
+  date: 7 sierpnia
   position: 18
 
 - url: 'https://www.facebook.com/events/458706019383156/'
-  place: LUBLIN
-  date: 11 SIERPNIA
+  place: Lublin
+  date: 11 sierpnia
   position: 19
 
 - url: 'https://www.facebook.com/events/749820213050419/'
-  place: OBORNIKI
-  date: 13 SIERPNIA
+  place: Oborniki
+  date: 13 sierpnia
   position: 20
 
 - url: 'https://www.facebook.com/events/332512731656808/'
-  place: OLSZTYN
-  date: 14 SIERPNIA
+  place: Olsztyn
+  date: 14 sierpnia
   position: 21
 
 - url: '#'
-  place: KOŁOBRZEG
-  date: 15 SIERPNIA
+  place: Kołobrzeg
+  date: 15 sierpnia
   position: 22
 
 - url: 'https://www.facebook.com/events/360902009298517/360902019298516/'
-  place: GDAŃSK
-  date: 19 SIERPNIA
+  place: Gdańsk - Męskie Granie
+  date: 19 sierpnia
   position: 23
 
 - url: 'https://www.facebook.com/events/3155919931321602/'
-  place: MIĘDZYZDROJE
-  date: 20 SIERPNIA
+  place: Międzyzdroje
+  date: 20 sierpnia
   position: 24
 
 - url: 'https://www.facebook.com/events/547388126581116/'
-  place: GORZÓW WLKP
-  date: 21 SIERPNIA
+  place: Gorzów Wlkp
+  date: 21 sierpnia
   position: 25
 
 - url: 'https://www.facebook.com/events/478926263810319/'
-  place: BIAŁYSTOK
-  date: 27 SIERPNIA
+  place: Białystok
+  date: 27 sierpnia
   position: 26
 
 - url: 'https://www.facebook.com/events/239042928279622/'
-  place: CIESZYN
-  date: 9 WRZEŚNIA
+  place: Cieszyn
+  date: 9 września
   position: 27
 
 - url: 'https://www.facebook.com/events/352564200263758/'
-  place: WARSZAWA
-  date: 10 WRZEŚNIA
+  place: Warszawa
+  date: 10 września
   position: 28
 
 - url: 'https://www.facebook.com/events/3172406146346781/'
-  place: POZNAŃ
-  date: 11 WRZEŚNIA
+  place: Poznań
+  date: 11 września
   position: 29
 
 - url: 'https://www.facebook.com/events/1135777953914877/'
-  place: ŁÓDŹ
-  date: 17 WRZEŚNIA
+  place: Łódź
+  date: 17 września
   position: 30
 
 - url: '#'
-  place: LEGNICA
-  date: 24 WRZEŚNIA
+  place: Legnica
+  date: 24 września
   position: 31
