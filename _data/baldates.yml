@@ -1,0 +1,34 @@
+- url: 'https://www.facebook.com/events/549843650273467/'
+  place: Wrocław
+  date: 10 listopada
+  position: 0
+
+- url: 'https://www.facebook.com/events/497937798400273/'
+  place: Katowice
+  date: 18 listopada
+  position: 1
+
+- url: 'https://www.facebook.com/events/801029334590350/'
+  place: Katowice
+  date: 19 listopada
+  position: 2
+
+- url: 'https://www.facebook.com/events/804239814342682/'
+  place: Poznań
+  date: 2 grudnia
+  position: 3
+
+- url: 'https://www.facebook.com/events/602284811387833/'
+  place: Poznań
+  date: 3 grudnia
+  position: 4
+
+- url: 'https://www.facebook.com/events/433411938888928/'
+  place: Gdańsk
+  date: 16 grudnia
+  position: 5
+
+- url: 'https://www.facebook.com/events/1240478940019752/'
+  place: Gdańsk
+  date: 17 grudnia
+  position: 6

@@ -277,10 +277,15 @@ a {
   }
 }
 
+.hone-image-section {
+  text-align: center;
+}
 
 .home-image-container {
   height: auto;
   text-align: center;
+  margin: auto;
+  max-width: 98vw;
 
   img {
     max-width: 100%;
