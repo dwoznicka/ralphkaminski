@@ -52,3 +52,18 @@
   place: Bydgoszcz
   date: 18 grudnia
   position: 10
+
+- url: ''
+  place: Warszawa
+  date: 13 stycznia
+  position: 11
+
+- url: ''
+  place: Warszawa
+  date: 14 stycznia
+  position: 12
+
+- url: ''
+  place: Warszawa
+  date: 15 stycznia
+  position: 13
