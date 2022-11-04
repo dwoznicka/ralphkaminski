@@ -67,3 +67,13 @@
   place: Warszawa
   date: 15 stycznia
   position: 14
+
+- url: 'https://www.facebook.com/events/3398961817014754/'
+  place: Stargard
+  date: 5 marca
+  position: 15
+
+- url: 'https://www.facebook.com/events/788871515515139/'
+  place: Łódź
+  date: 19 marca
+  position: 16
