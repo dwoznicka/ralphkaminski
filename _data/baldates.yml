@@ -68,12 +68,42 @@
   date: 15 stycznia
   position: 14
 
+- url: 'https://www.facebook.com/events/489003789847424/'
+  place: Wrocław
+  date: 20 stycznia
+  position: 15
+
+- url: 'https://www.facebook.com/events/512353354264475/'
+  place: Oława
+  date: 12 lutego
+  position: 16
+
+- url: 'https://www.facebook.com/events/1191940158064950/'
+  place: Jelenia Góra
+  date: 27 lutego
+  position: 17
+
+- url: 'https://www.facebook.com/events/489926629762331/'
+  place: Grudziądz
+  date: 2 marca
+  position: 18
+
 - url: 'https://www.facebook.com/events/3398961817014754/'
   place: Stargard
   date: 5 marca
-  position: 15
+  position: 19
+
+- url: 'https://www.facebook.com/events/505473388176126/'
+  place: Bełchatów
+  date: 9 marca
+  position: 20
 
 - url: 'https://www.facebook.com/events/788871515515139/'
   place: Łódź
   date: 19 marca
-  position: 16
+  position: 21
+
+- url: 'https://www.facebook.com/events/5606078069477778/'
+  place: Głogów
+  date: 25 marca
+  position: 22
