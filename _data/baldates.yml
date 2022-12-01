@@ -78,42 +78,57 @@
   date: 12 lutego
   position: 16
 
+- url: 'https://www.facebook.com/events/1192695921662675/'
+  place: Wolbrom
+  date: 25 lutego
+  position: 17
+
 - url: 'https://www.facebook.com/events/1191940158064950/'
   place: Jelenia Góra
   date: 27 lutego
-  position: 17
+  position: 18
 
 - url: 'https://www.facebook.com/events/489926629762331/'
   place: Grudziądz
   date: 2 marca
-  position: 18
+  position: 19
 
 - url: 'https://www.facebook.com/events/1018166342912042/'
   place: Włocławek
   date: 3 marca
-  position: 19
+  position: 20
 
 - url: 'https://www.facebook.com/events/620362816506144/'
   place: Piła
   date: 4 marca
-  position: 20
+  position: 21
 
 - url: 'https://www.facebook.com/events/3398961817014754/'
   place: Stargard
   date: 5 marca
-  position: 21
+  position: 22
+
+- url: 'https://www.facebook.com/events/1798785453829340/'
+  place: Konin
+  date: 8 marca
+  position: 23
 
 - url: 'https://www.facebook.com/events/505473388176126/'
   place: Bełchatów
   date: 9 marca
-  position: 22
+  position: 24
+
+- position: 'https://www.facebook.com/events/485597800092799/'
+  place: Pruszków
+  date: 12 marca
+  position: 25
 
 - url: 'https://www.facebook.com/events/788871515515139/'
   place: Łódź
   date: 19 marca
-  position: 23
+  position: 26
 
 - url: 'https://www.facebook.com/events/5606078069477778/'
   place: Głogów
   date: 25 marca
-  position: 24
+  position: 27
