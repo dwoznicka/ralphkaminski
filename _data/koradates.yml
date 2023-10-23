@@ -247,3 +247,18 @@
   place: RADOM
   date: 24.4.22
   position: 50
+
+- url: 'https://www.facebook.com/events/1435563850583506/'
+  place: CIECHANÓW
+  date: 22.3.23
+  position: 51
+
+- url: 'https://www.facebook.com/events/625597572660434/'
+  place: MIŃSK MAZOWIECKI
+  date: 23.3.23
+  position: 52
+
+- url: 'https://www.facebook.com/events/510734290970459/'
+  place: WARSZAWA
+  date: 1.4.23
+  position: 53

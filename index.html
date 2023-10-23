@@ -9,7 +9,7 @@ title: 'Oficjalna strona Ralpha Kaminskiego'
 <div class="home-section hidden">
   <div class="home-image-section ">
     <div class="home-image-container">
-      <img src="{{ 'bal2.jpg' | asset_path | absolute_url }}" alt="Ralph Kaminski Bal u Rafała" title="Ralph Kaminski Jesień Zima 2022 - 2023">
+      <img src="{{ 'bal3.png' | asset_path | absolute_url }}" alt="Ralph Kaminski Bal u Rafała" title="Ralph Kaminski Jesień Zima 2022 - 2023">
       <img style="display: none;" src="{{ 'background1.png' | asset_path | absolute_url }}" alt="Ralph Kaminski" title="Ralph Kaminski KORA">
       <img style="display: none;" src="{{ 'bal-background.png' | asset_path | absolute_url }}" alt="Ralph Kaminski" title="Ralph Kaminski BAL">
     </div>
@@ -103,6 +103,7 @@ title: 'Oficjalna strona Ralpha Kaminskiego'
             {% for video in videos %}
                 <div class="music-video-container">
                   <iframe id="iframe{{ video.position }}" class="videoIframe" src="{{ video.url }}?enablejsapi=1&version=3&playerapiid=ytplayer" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen allowscriptaccess="always"  style="z-index: 100; width: 82vw; max-width: 880px; height: 65vh; max-height: 1200px;"></iframe>  
+                <p>{{video.title}}</p>
                 </div>
 
             {% endfor %}
