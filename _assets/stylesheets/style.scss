@@ -40,6 +40,16 @@ body.kora * {
   font-style: normal;
 }
 
+body.balnadbale {
+  background-image: none;
+  background-color: #E8B99B;
+  * {
+    color: $brand-white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+  }
+}
+
 hr {
   border-top: 4px solid rgba(255,255,255,.1);
   width: 100%;

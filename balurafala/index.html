@@ -4,24 +4,23 @@
 
 layout: base
 title: 'Trasa Bal u Rafała: Oficjalna strona Ralpha Kaminskiego'
-body_class: 'balnadbale'
 ---
 
 <div class="home-section hidden">
   <div class="home-image-section">
-    <div class="home-fullscreen-bckg" >
-      <img class="hide" src="{{ 'balnadbale.jpg' | asset_path | absolute_url }}" alt="Ralph Kaminski To Bal Jest Nad Bale 2024" title="Ralph Kaminski trasa koncertowa To Bal Jest Nad Bale Bal u Rafała">
+    <div class="home-image-container" >
+      <img src="{{ 'bal4.png' | asset_path | absolute_url }}" alt="Ralph Kaminski Bal u Rafała 2022-2023" title="Ralph Kaminski Trasy koncertowe Bal u Rafała">
     </div>
   </div>
 
   <div class="home-tour-section">
-    <ul class="bal-dates-list">
-      {% assign dates = site.data.haledates | sort:"position" %}
+    <ul class="kora-dates-list summer ">
+      {% assign dates = site.data.baldates | sort:"position" %}
       {% for date in dates %}
         <li>
           <a href="{{ date.url }}">
-            <span style="font-weight: bold;">{{ date.date }}</span>
-            <span>{{ date.place }}</span>
+            <span style="font-weight: bold;">{{ date.place }}</span>
+            <span>{{ date.date }}</span>
           </a>
         </li>
       {% endfor %}
