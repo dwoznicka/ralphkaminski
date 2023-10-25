@@ -41,10 +41,15 @@ body.kora * {
 }
 
 body.balnadbale {
-  background-image: none;
-  background-color: #E8B99B;
+  background: url('/assets/tour-background.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: $brand-balnadbale;
+  color: $brand-black;
   * {
-    color: $brand-white;
+    color: $brand-black;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
   }
