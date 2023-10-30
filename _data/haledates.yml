@@ -1,24 +1,29 @@
 - url: 'https://www.facebook.com/kaminskiralph/events/'
-  place: Poznań, Sala Ziemi
+  city: Poznań
+  venue: Sala Ziemi
   date: '9.2.2024'
   position: 1
 
 - url: 'https://www.facebook.com/kaminskiralph/events/'
-  place: Warszawa, Torwar
+  city: Warszawa
+  venue: Torwar
   date: '18.2.2024'
   position: 2
 
 - url: 'https://www.facebook.com/kaminskiralph/events/'
-  place: Gdynia, Polsat Plus Arena
+  city: Gdynia
+  venue: Polsat Plus Arena
   date: '23.2.2024'
   position: 3
 
 - url: 'https://www.facebook.com/kaminskiralph/events/'
-  place: Katowice, MCK
+  city: Katowice
+  venue: MCK
   date: '25.2.2024'
   position: 4
 
 - url: 'https://www.facebook.com/kaminskiralph/events/'
-  place: Wrocław, Hala Stulecia
+  city: Wrocław
+  venue: Hala Stulecia
   date: '29.2.2024'
   position: 5

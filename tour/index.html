@@ -8,23 +8,49 @@ body_class: 'balnadbale'
 ---
 
 <div class="home-section hidden">
-  <div class="home-image-section">
-    <div class="home-fullscreen-bckg" >
-      <img class="hide" src="{{ 'balnadbale.jpg' | asset_path | absolute_url }}" alt="Ralph Kaminski To Bal Jest Nad Bale 2024" title="Ralph Kaminski trasa koncertowa To Bal Jest Nad Bale Bal u Rafała">
+  <div class="home-image-section ">
+    <div class="home-image-container tour">
+      <img src="{{ 'balnadbale-square.jpg' | asset_path | absolute_url }}" alt="Ralph Kaminski Bal u Rafała" title="Ralph Kaminski Jesień Zima 2022 - 2023">
+      <img style="display: none;" src="{{ 'background1.png' | asset_path | absolute_url }}" alt="Ralph Kaminski" title="Ralph Kaminski KORA">
+      <img style="display: none;" src="{{ 'bal-background.png' | asset_path | absolute_url }}" alt="Ralph Kaminski" title="Ralph Kaminski BAL">
+      <img style="display: none;" src="{{ 'tour-background.png' | asset_path | absolute_url }}" alt="Ralph Kaminski" title="Ralph Kaminski BAL NAD BALE">
     </div>
   </div>
-
-  <div class="home-tour-section">
-    <ul class="bal-dates-list">
+  <div class="home-media">
+    <ul class="home-mediaList tour">
       {% assign dates = site.data.haledates | sort:"position" %}
+
       {% for date in dates %}
-        <li>
-          <a href="{{ date.url }}">
-            <span style="margin-right: 20px;">{{ date.date }}</span>
-            <span>{{ date.place }}</span>
-          </a>
-        </li>
+      <li class="home-mediaList-item">
+        <a class="home-mediaList-link" target="_blank" href="{{ date.url }}">
+          <span>{{ date.date }}</span>
+          <span style="font-weight: 900;">{{ date.city }}</span>
+          <span>{{ date.venue }}</span>
+        </a>
+      </li>
       {% endfor %}
     </ul>
   </div>
 </div>
+
+<footer class="hide hidden">
+  <div class="footer-media">
+    <ul class="footer-mediaList">
+      <li class="footer-mediaList-item">
+        <a class="footer-mediaList-link" target="_blank" href="https://www.instagram.com/ralphkaminski/"><i class="fab fa-instagram"></i></a>
+      </li>
+      <li class="footer-mediaList-item">
+        <a class="footer-mediaList-link" target="_blank" href="https://www.facebook.com/kaminskiralph/"><i class="fab fa-facebook-square"></i></a>
+      </li>
+      <li class="footer-mediaList-item">
+        <a class="footer-mediaList-link" target="_blank" href="https://twitter.com/ralphkaminski"><i class="fab fa-twitter"></i></a>
+      </li>
+    </ul>
+  </div>
+  <div class=footer-copyright>
+    <div class="footer-copyrightList">
+      <span class="float-left">{{ site.copyright_short }}</span>
+      <span class="float-right developer">{{ site.made_by }}</span>
+    </div>
+  </div>
+</footer>

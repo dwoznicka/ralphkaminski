@@ -54,6 +54,26 @@ $(document).ready(function() {
 
   var $videoGallery = $('.videoGallery');
 
+  if ($videoGallery.length) {
+    $videoGallery.slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        draggable: false,
+        vertical: false,
+        infinite: false,
+        arrows: true,
+        dots: false,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        variableWidth: true,
+        autoplaySpeed: 5500,
+        speed: 800,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next')
+    });
+  }
+
   $('#video').on('hidden.bs.modal', function (e) {
     $('.videoIframe').each(function(){
       this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
