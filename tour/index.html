@@ -3,22 +3,22 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: base
-title: 'Trasa To Bal Jest Nad Bale: Oficjalna strona Ralpha Kaminskiego'
-body_class: 'balnadbale'
+title: 'GÓRA: Oficjalna strona Ralpha Kaminskiego'
+body_class: 'gora'
 ---
 
 <div class="home-section hidden">
   <div class="home-image-section ">
     <div class="home-image-container tour">
-      <img src="{{ 'balnadbale-square.jpg' | asset_path | absolute_url }}" alt="Ralph Kaminski Bal u Rafała" title="Ralph Kaminski Jesień Zima 2022 - 2023">
+      <img src="{{ 'ralph_gora_square.jpeg' | asset_path | absolute_url }}" alt="Ralph Kaminski GÓRA" title="Ralph Kaminski Zima 2025">
       <img style="display: none;" src="{{ 'background1.png' | asset_path | absolute_url }}" alt="Ralph Kaminski" title="Ralph Kaminski KORA">
-      <img style="display: none;" src="{{ 'bal-background.png' | asset_path | absolute_url }}" alt="Ralph Kaminski" title="Ralph Kaminski BAL">
+      <img style="display: none;" src="{{ 'gora-background.jpg' | asset_path | absolute_url }}" alt="Ralph Kaminski" title="Ralph Kaminski BAL">
       <img style="display: none;" src="{{ 'tour-background.png' | asset_path | absolute_url }}" alt="Ralph Kaminski" title="Ralph Kaminski BAL NAD BALE">
     </div>
   </div>
   <div class="home-media">
     <ul class="home-mediaList tour">
-      {% assign dates = site.data.haledates | sort:"position" %}
+      {% assign dates = site.data.goradates | sort:"position" %}
 
       {% for date in dates %}
       <li class="home-mediaList-item">

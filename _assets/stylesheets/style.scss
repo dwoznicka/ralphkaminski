@@ -54,6 +54,17 @@ body.balnadbale {
   }
 }
 
+body.gora {
+  background-image: none;
+  background-color: $brand-grafit;
+  color: $brand-white;
+  * {
+    color: $brand-white;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+  }
+}
+
 hr {
   border-top: 4px solid rgba(255,255,255,.1);
   width: 100%;
